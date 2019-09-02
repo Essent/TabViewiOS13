@@ -22,22 +22,18 @@ These components make use of several CSS class names that are part of the Native
 core theme, such as p-20, btn, h2, and list-group. You can view a full list of the
 class names available for styling your app at https://docs.nativescript.org/ui/theme.
 -->
-<TabView androidTabsPosition="bottom">
-    <StackLayout class="menu__content"
-                 *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
-        <ng-content select=".timeline"></ng-content>
+<TabView>
+    <StackLayout
+            *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
     </StackLayout>
-    <StackLayout class="menu__content"
-                 *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
-        <ng-content select=".insights"></ng-content>
+    <StackLayout
+            *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
     </StackLayout>
-    <StackLayout class="menu__content"
-                 *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
-        <ng-content select=".consumption"></ng-content>
+    <StackLayout
+            *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
     </StackLayout>
-    <StackLayout class="menu__content"
-                 *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
-        <ng-content select=".settings"></ng-content>
+    <StackLayout
+            *tabItem="{ iconSource: 'res://nav_timeline_inactive'}">
     </StackLayout>
 </TabView>
 
